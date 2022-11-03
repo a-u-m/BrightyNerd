@@ -5,7 +5,7 @@ const ButtonXL = (props) => {
     <React.Fragment>
       <button
         className={
-          "flex h-[5rem] w-1/3 content-center items-center justify-center rounded-lg shadow-md " +
+          "flex h-[5rem] w-[30rem] content-center items-center justify-center rounded-sm shadow-md  hover:brightness-125 " +
           props.classes
         }
       >
