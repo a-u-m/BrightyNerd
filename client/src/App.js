@@ -1,10 +1,12 @@
 import React from "react";
+import "./index.css";
+import Initial from "./components/Pages/Initial";
 
 const App = () => {
   return (
-    <div>
-      <h1>This is App.js</h1>
-    </div>
+    <React.Fragment>
+      <Initial />
+    </React.Fragment>
   );
 };
 
