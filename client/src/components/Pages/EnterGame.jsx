@@ -7,7 +7,7 @@ const EnterGame = (props) => {
     <React.Fragment>
       <BackArrow onClick={props.gameBackHandler} />
       <input
-        className="m-3 h-[5rem] w-[30rem] rounded border-[2px] border-black text-center text-[2rem] ring-[2px] ring-[black] ring-offset-1"
+        className="m-3 mb-0 h-[5rem] w-[30rem] rounded border-[2px] border-black text-center text-[2rem] ring-[2px] ring-[black] ring-offset-1"
         placeholder="Enter Game Code"
       />
       <ButtonXL
